@@ -82,19 +82,3 @@ equalsButton.addEventListener("click", function () {
 function printILY() {
   document.getElementById("output-value").innerText = "kok kamu cantik banget sih";
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-  const musicIcon = document.getElementById("music-icon");
-  const backgroundMusic = document.getElementById("background-music");
-  backgroundMusic.volume = 0.1;
-
-  musicIcon.addEventListener("click", function () {
-    if (backgroundMusic.paused) {
-      backgroundMusic.play();
-      musicIcon.classList.add("playing");
-    } else {
-      backgroundMusic.pause();
-      musicIcon.classList.remove("playing");
-    }
-  });
-});
