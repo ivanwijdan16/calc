@@ -80,5 +80,5 @@ equalsButton.addEventListener("click", function () {
 });
 
 function printILY() {
-  document.getElementById("output-value").innerText = "kok kamu cantik banget sih";
+  document.getElementById("output-value").innerText = "KNTL";
 }
